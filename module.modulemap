@@ -1,6 +1,5 @@
-module CDispatch [system] {
-    /* requires blocks */
-    header "/opt/swift/swift-3.1.1/usr/lib/swift/dispatch"
+module CJPEG [system] {
+    header "/usr/include/jpeglib.h"
+    link "jpeg"
     export *
-    link "dispatch"
 }
